@@ -44,5 +44,3 @@ const gerente = new Gerente('João', 5000);
 const operario = new Operario('Maria', 2000);
 
 calcularSalariosComBonus([gerente, operario]);
-// João: Salário Final = 5500
-// Maria: Salário Final = 2100
