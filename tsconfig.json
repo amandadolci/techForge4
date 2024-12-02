@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Versão do JavaScript para a qual o código será compilado
+    "module": "commonjs", // Sistema de módulos
+    "outDir": "./dist", // Pasta de saída para o código compilado
+    "rootDir": "./",
+    "strict": true, // Habilita verificações estritas
+    "esModuleInterop": true, // Permite interoperabilidade com módulos ES6
+    "forceConsistentCasingInFileNames": true, // Força diferenciação entre maiúsculas e minúsculas
+    "skipLibCheck": true, // Pula a verificação de tipos em arquivos de biblioteca
+  },
+  "include": [
+    "trilha2/*.ts",
+    "trilha3/*.ts",
+    "trilha4/*.ts",
+    "trilha5/*.ts",
+    "trilha6/*.ts"
+  ],
+}
