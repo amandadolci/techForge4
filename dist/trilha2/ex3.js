@@ -13,4 +13,4 @@ class Produto {
     }
 }
 const produto = new Produto('Notebook', 2500, 5);
-console.log(produto.calcularValorEstoque()); // => 12500
+console.log(produto.calcularValorEstoque());

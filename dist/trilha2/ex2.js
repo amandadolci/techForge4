@@ -15,4 +15,4 @@ class Livro {
 }
 const livro = new Livro('Harry Potter e o Prisioneiro de Azkaban', 'J.K. Rowling', 350);
 livro.marcarComoLido();
-console.log(livro.lido); // => true
+console.log(livro.lido);

@@ -16,15 +16,18 @@ class ContaBancaria {
         }
     }
     sacar(valor) {
-        if (valor > 0 && valor <= this.saldo) {
-            this.saldo -= valor;
+        if (valor < 0) {
+            console.log('Valor inválido.');
+        }
+        else if (valor > this.saldo) {
+            console.log('Saldo insuficiente.');
         }
         else {
-            console.log('Saldo insuficiente ou valor inválido.');
+            this.saldo -= valor;
         }
     }
 }
-const conta = new ContaBancaria('João', 1000);
+const conta = new ContaBancaria('Amanda', 1000);
 conta.depositar(500);
 conta.sacar(300);
-console.log(conta.saldo); // => 1200
+console.log(conta.saldo);

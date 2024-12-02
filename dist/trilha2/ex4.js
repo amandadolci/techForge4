@@ -6,13 +6,13 @@ class Temperatura {
     constructor(valor) {
         this.valor = valor;
     }
-    paraFahrenheit() {
+    conversorFahrenheit() {
         return (this.valor * 9) / 5 + 32;
     }
-    paraKelvin() {
+    conversorKelvin() {
         return this.valor + 273.15;
     }
 }
 const temp = new Temperatura(25);
-console.log(temp.paraFahrenheit()); // => 77
-console.log(temp.paraKelvin()); // => 298.15
+console.log(temp.conversorFahrenheit());
+console.log(temp.conversorKelvin());

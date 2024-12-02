@@ -20,6 +20,3 @@ const agenda = new Agenda();
 agenda.adicionarCompromisso('Reunião às 10h');
 agenda.adicionarCompromisso('Dentista às 14h');
 agenda.listarCompromissos();
-// Compromissos:
-// 1. Reunião às 10h
-// 2. Dentista às 14h
