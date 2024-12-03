@@ -8,6 +8,10 @@
     "esModuleInterop": true, // Permite interoperabilidade com módulos ES6
     "forceConsistentCasingInFileNames": true, // Força diferenciação entre maiúsculas e minúsculas
     "skipLibCheck": true, // Pula a verificação de tipos em arquivos de biblioteca
+    "lib": [
+      "ES2017",
+      "DOM"
+    ]
   },
   "include": [
     "trilha2/*.ts",
